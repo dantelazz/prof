@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>EjerciciosHtml</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<h1>Primer parrafo corto (incluye el retorno de carro)</h1>
+<h2>Segundo parrafo (incluiye el retorno de carro)</h2>
+<h2>Grupo de elementos de navegacion</h2>
+
+    <li><a href="https://espanol.yahoo.com/" target="_blank">Yahoo</a></li>
+    <li><a href="https://www.google.com/" target="_blank">Google</a></li>
+    <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+<hr>
+    <li>
+        <a href="Pag2.html">Enlace a otra pagina dentro de la misma pestaña</a>
+        <a href="Pag3.html" target="_blank">Enlace a otra pagina en una nueva pestaña</a>
+        <a href="#anclaje">Ancla a otro punto de esta pagina</a>
+    </li>
+<hr>
+<h1>Cuerpo principal del contenido</h1>
+La etiqueta main es en HTML5 una etiqueta semantica. Esto quiere decir que si tiene que ver con el significado de lo contenido dentro de ella. Define el contenido principal de la pagina. Unicamente puede haber una sola etiqueta como esta en todo el domcumento.
+El contenido escrito aqui dentro no se repite en el resto del sitio (todo lo contrario a los encabezados de pagina,  los menuies de navegacion y los pue de pagina). Es usado por buscadores para indexar.
+Conviene usar aqui textos que atuden a encontrar la pagina luego de procesos de indexacion de los buscadores.
+
+<h2>Seccion etiquetas semanticas estructurales mas importantes:</h2>
+
+   <li> <a>HEADER</a></li>
+   <li> <a>FOOTER</a></li>
+   <li> <a>SECTION</a></li>
+    <li><a>ARTICLE</a></li>
+    <li><a>NAV</a></li>
+   <li> <a>ADRESS</a></li>
+
+Las etiquetas semanticas estructurales estan relacionas directamente con el significado del contenido y no con los estilos ni las posiciones dentro del documento.
+
+<h2>Reglas para etiquetas semanticas:</h2>
+
+    <li><a>Los distintos tipos de contenidos se puedenn asociar a la etiqueta SECTION</a>
+    <li><a>Las unidades de contenido se asocian a las etiquetas ARTICLE. o sea que una SECTION anida multiples ARTICLES.</a>
+    <li><a>Las etiquetas HEADER Y FOOTER pueden ser anidadeas dentro de otras HEADER O FOOTER.Osea un FOOTER podria anidar a otro HEADER Y FOOTER.</a>
+    <li><a>La etiqueta NAV debe ser unica en el documento y corresponde a los elementos de navegacion del documento.</a>
+    <li><a>Reservar etiqueta h1 para usa dentro de etiquetas top level como main,header o footer.</a>
+
+
+<h3>Seccion de imagenes</h3>
+En esta seccion mostraremos imagenes identificativas de nuestro sitio.
+La siguiente imagen esta insertada en tamaño natural.
+<br>
+
+
+    <img src="Luc.jpg">
+    <br>
+
+La misma imagen, cuadro paradise lost de Gustave Dore (250x309), con distintos atributos width:<br>
+De acuerdo a la dimension de la imagen solo la primera no se pixelara.<br>
+Cada elemento img se ubica al lado de la anterior hasta completar el ancho de la ventana activa (view port)<br>
+Todas las siguientes iomagenes se veran deformadas por haber definido doble paramentro de estilo (ancho y alto)
+<br>
+
+<img src="Luc.jpg" width="250" height="309">
+<img src="Luc.jpg" width="350" height="309">
+<img src="Luc.jpg" width="450" height="309">
+<img src="Luc.jpg" width="400" height="309">
+<img src="Luc.jpg" width="450" height="309">
+<br>
+<hr>
+<h3> Seccion video</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gxEPV4kolz0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h3>ANCLAJES</h3>
+    <a id="anclaje">Punto de anclado</a>
+
+    <h2>Datos del alumno</h2>
+Dante M. Lazzarin
+
+
+</body>
+</html>
